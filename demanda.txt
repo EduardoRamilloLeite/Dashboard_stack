@@ -1,0 +1,71 @@
+---parte manual
+    
+    
+    *inserçoes
+
+    produto (valor, devs, porcentagens, unidades vendidas) 
+        nao entendi
+
+    consultorias Dev X  (dev, horass trabalhadas, porcentagens)
+
+    numero de clientes novos
+
+
+
+---partes automatizada
+    *calculos
+    valor do dev X no mes X (produto1 x%, produto2%, + 90% de X consultorias)
+    valor emm caixa: valor mes anterior + (produto1 15%, + 5%consultorias de todos os devs mes)
+    valor total faturado mes: (produto1 valor * unidades vendidas) + (produto2 valor * unidades vendidas) +(numero de horas de consultorias)
+
+    *relatorios por email 
+    /enviar os relatorios como planilha no excel para cada dev
+
+    valor do dev X no mes X
+    produtos e suas respectivas quantidades de venda
+    quanto ele ganhou com cada produto
+    quantidade de horas de consultorias prestadas + valor ganho por hora 
+    numero de novos clientes na loja
+    /pensei em colocar no corpo do email, exemplo:
+        Parabens vc conquistou 12 novos clientes, continue assim!
+             confira seus resultados abaixo
+
+
+
+
+
+*relatorios por dashboard 
+    valor do dev X no mes X
+    produtos e suas respectivas quantidades de venda
+    quanto ele ganhou com cada produto
+    quantidade de horas de consultorias prestadas + valor ganho por hora
+    numero de novos clientes na loja
+
+    dashboard com :
+    valor de ganho de cada Dev separado por abas com nome da cada um (Teste)
+    dashboard em Chart(barras) dos produtos vendidos (soma de todos os produtos sem mostrar opçoes de valor de cada um (valor total))
+    consultorias
+    clientes novos 
+    .exe
+
+
+projeto
+exportar 
+
+
+#######Passo a passo de como fazer:
+
+insercao manual no excel
+excel -> dashboard
+
+
+usar o Pandas para incluir os dados em uma planilha
+criar o dashboard
+ -faturamento por produto
+ -consultorias
+ -clientes novos
+
+atualizações automatizada*
+
+
+
